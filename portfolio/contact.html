@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techware</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="icon" href="favicon.png" />
+    <link href="style.css" rel="stylesheet" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="nav1 navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid mt-2 mb-2">
+        <a class="nav-title navbar-brand" href="#"><h1>Techware</h1></a>
+        <button
+          class="navbar-toggler text-center"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-around"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="home-page.html">HOME </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="contact-us container-fluid text-center">
+      <div class="container cont">
+        <h1>We would love to hear from you</h1>
+        <h5>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+          voluptatem incidunt doloremque doloribus non modi eligendi obcaecati
+          dolorum.
+        </h5>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-5" id="contact">
+      <div class="row">
+        <div class="col col-12 col-xs-12 col-sm-12 col-md-6 cont-div">
+          <img src="K170Wuu.png" class="contact-img p-3 mt-5" />
+        </div>
+        <div class="contc col col-12 col-xs-12 col-sm-12 col-md-6 p-3">
+          <form class="form1 p-4" id="form" style="width: 75%">
+            <h1 class="mb-2 text-center">CONTACT</h1>
+            <div class="form-floating mb-4 mt-4">
+              <input
+                type="text"
+                class="form-control"
+                id="floatingName"
+                placeholder="Name"
+              />
+              <label for="floatingName">Name</label>
+            </div>
+            <div class="form-floating mb-4">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+              />
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-4">
+              <input
+                type="password"
+                class="form-control"
+                id="floatingPhone"
+                placeholder="Phone"
+              />
+              <label for="floatingPhone">Phone number</label>
+            </div>
+            <div class="form-floating mb-4">
+              <textarea
+                class="form-control"
+                placeholder="Leave a comment here"
+                id="floatingTextarea2"
+                style="height: 100px"
+              ></textarea>
+              <label for="floatingTextarea2">Comments</label>
+            </div>
+            <div class="d-grid gap-2">
+              <input
+                type="button"
+                class="btn text-light"
+                id="btn1"
+                onclick="alert('Your response has been submitted !')"
+                value="Submit"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer container-fluid mt-5 p-3">
+      <div class="row p-3 foot-row">
+        <table class="table-responsive table1 text-center p-2">
+          <tr>
+            <th>OFFICE ADDRESS</th>
+            <th>FOLLOW US</th>
+            <th>CONTACT US</th>
+          </tr>
+          <tr>
+            <td class="text-wrap">
+              Lorem ipsum amet, 304 consectetur. officiis est mollitia.
+            </td>
+            <td>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-linkedin"></a>
+              <br />
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-google"></a>
+            </td>
+            <td>
+              +123 456 789 <br />
+              Techware@skype <br />enquiry@support.com
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

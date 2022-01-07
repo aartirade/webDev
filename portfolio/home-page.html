@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techware</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="icon" href="favicon.png" />
+    <link href="style.css" rel="stylesheet" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+  </head>
+
+  <body>
+    <nav class="nav1 navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid mt-2 mb-2">
+        <a class="nav-title navbar-brand" href="#"><h1>Techware</h1></a>
+        <button
+          class="navbar-toggler text-center"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-around"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="project.html">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="team.html">TEAM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="f2c89128eb0f2b9d3495452045e200cd.jpg"
+            height="630"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="14666e1c7c9f7bdef81d6900ffa819d6.jpg"
+            height="630"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="900_1999741HighRes.jpg"
+            height="630"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="container-fluid para mt-5">
+          <h1 class="text-wrap mb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing.
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+            fugit<br />
+            dolore sunt iste vero, iure quo.
+          </p>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="welcome container text-center p-3" id="about">
+      <div class="row abt p-3">
+        <h1 class="mb-2 p-2">ABOUT US</h1>
+        <h5 class="text-wrap container p-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nihil
+          obcaecati iure unde, non maxime excepturi dignissimos consequuntur
+          molestias sed ducimus nobis placeat consectetur. Consequatur illo nam
+          iste perferendis, repudiandae quibusdam? Facere labore optio odio,
+          earum quam molestiae nostrum doloremque nesciunt, voluptatem quidem
+          distinctio fuga ea esse. Reprehenderit, adipisci similique eum
+          aspernatur ex soluta voluptate, quibusdam, nulla modi accusantium
+          Lorem, ipsum dolor.
+        </h5>
+      </div>
+    </div>
+
+    <div class="container p-4 notif-card">
+      <div class="row p-2">
+        <div class="col-sm-6 col-md-4 card card1 text-center border-0">
+          <div class="card-body cb">
+            <img
+              src="886472_message_512x512.png"
+              class="d-block mt-1 mb-3 p-5"
+              width="200"
+              height="200"
+              alt="..."
+            />
+            <h5 class="card-title">Lorem ipsum</h5>
+            <p class="card-text mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              corporis, maiores nemo ab porro labore.
+            </p>
+            <a href="#" class="btn text-light mb-3">Know more</a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 card card1 text-center border-0">
+          <div class="card-body cb">
+            <img
+              src="846a03c6760f83f3a0e92609bca9cebf.jpg"
+              class="d-block mt-1 mb-3 p-5"
+              width="200"
+              height="200"
+              alt="..."
+            />
+            <h5 class="card-title">amet consectetur</h5>
+            <p class="card-text mb-4">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
+              quam debitis soluta, quasi quisquam aliquid.
+            </p>
+            <a href="#" class="btn text-light mb-3">Know more</a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 card card1 text-center border-0">
+          <div class="card-body cb">
+            <img
+              src="360_F_285706992_O7xMw5P11o0H2Dr0cRYbwfvs92r9vXIA.jpg"
+              class="d-block mt-1 mb-3 p-5"
+              width="200"
+              height="200"
+              alt="..."
+            />
+            <h5 class="card-title">dolor sit</h5>
+            <p class="card-text mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+              iure repudiandae nisi voluptates? Dolor.
+            </p>
+            <a href="#" class="btn text-light mb-3">Know more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer container-fluid mt-5 p-3">
+      <div class="row p-3 foot-row">
+        <table class="table-responsive table1 text-center p-2">
+          <tr>
+            <th>OFFICE ADDRESS</th>
+            <th>FOLLOW US</th>
+            <th>CONTACT US</th>
+          </tr>
+          <tr>
+            <td class="text-wrap">
+              Lorem ipsum amet, 304 consectetur. officiis est mollitia.
+            </td>
+            <td>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-linkedin"></a>
+              <br />
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-google"></a>
+            </td>
+            <td>
+              +123 456 789 <br />
+              Techware@skype <br />enquiry@support.com
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
